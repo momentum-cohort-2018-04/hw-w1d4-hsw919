@@ -1,0 +1,457 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    font-family: 'Open Sans', Oswald;
+    background: #EFEFEF;
+    margin: 0 auto;
+    width: 100%;
+    color: #A9A9A9;
+}
+
+.container {
+    min-height: 100%;
+    margin-bottom: -75px;
+}
+
+.footer,
+.push {
+    height: 75px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+
+
+/************** HEADER **************/
+
+.header {
+    background: #FFF;
+    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.header-name {
+    font-family: 'Boogaloo', cursive;
+    font-size: 3rem;
+    margin: 0;
+    padding: 10px 0 0 10px;
+    color: #FF3B3F;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 0 10px;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #A9A9A9;
+}
+
+.navbar ul li a:hover {
+    color: #FF3B3F;
+}
+
+/************** BIO **************/
+
+.my-photo {
+    max-width: 50%;
+    margin: 50px 25% 0 25%;
+    border-radius: 45%;
+}
+
+.hello {
+    padding: 20px 0 0 10px;
+}
+
+.bio-name {
+    font-size: 3rem;
+    font-family: 'Kaushan Script', cursive;
+    margin: 0;
+    padding: 0 0 0 10px;
+}
+
+.bio-text {
+    padding: 20px 0 0 10px;
+    line-height: 1.8;
+    margin: 0 0 25px 0;
+}
+
+.momentum {
+    margin: 0;
+    padding: 20px 0 0 10px;
+}
+
+/************** PROJECTS **************/
+
+.project-name {
+    margin: 0;
+    padding: 20px 0 0 10px;
+    font-size: 4rem;
+    font-family: 'Boogaloo', cursive;
+}
+
+.website-name {
+    margin: 0;
+    padding: 20px 0 10px 10px;
+    color: #FF3B3F;
+}
+
+.website-photo {
+    max-width: 96%;
+    margin: 0 2% 0 2%;
+}
+
+.website-text {
+    padding: 10px;
+    margin: 0;
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+
+.site {
+    padding: 10px;
+    border-right: 1px solid black;
+}
+
+.code {
+    padding: 10px 10px 10px 8px;
+}
+
+.links {
+    margin-bottom: 20px;
+}
+
+/************** RESUME **************/
+
+.resume-name {
+    margin: 0;
+    padding: 20px 0 0 10px;
+    font-size: 4rem;
+    font-family: 'Boogaloo', cursive;
+}
+
+.resume-my-name {
+    padding: 0 0 0 10px;
+    font-size: 2rem;
+    margin-bottom: 0;
+    color: #FF3B3F;
+}
+
+.resume-email {
+    padding: 0 0 0 10px;
+    margin-top: 5px;
+    margin-bottom: 1px;
+}
+
+.resume-number {
+    padding: 0 0 0 10px;
+    margin-top: 0;
+}
+
+.resume-text {
+    padding: 0 0 0 10px;
+    line-height: 1.5;
+}
+
+.employment-history {
+    color: #FF3B3F;
+    padding: 15px 0 0 10px;
+}
+
+.job-name {
+    padding: 0 0 0 10px;
+    margin-bottom: 0;
+}
+
+.job-length,
+.job-title {
+    padding: 0 0 0 10px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.job-description {
+    padding: 0 0 0 10px;
+    line-height: 1.5;
+}
+
+.education {
+    padding: 15px 0 0 10px;
+    color: #FF3B3F;
+}
+
+.school {
+    padding: 0 0 0 10px;
+    margin-bottom: 0;
+}
+
+.school-length {
+    padding: 0 0 0 10px;
+    margin-top: 10px;
+}
+
+
+
+/************** FOOTER **************/
+
+.footer {
+    background: #FFF;
+    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    text-align: center;
+}
+
+.footer a {
+    padding: 10px;
+}
+
+.twitter {
+    color: #1DA1F2;
+}
+
+.github {
+    color: black;
+}
+
+.mail {
+    color: #FF3B3F;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .navbar {
+        float: right;
+        padding-top: 10px;
+    }
+
+    .header {
+        padding-bottom: 15px;
+    }
+
+    .header-name {
+        display: inline-block;
+    }
+
+    .photo-contain {
+        float: right;
+        width: 40%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .website-text {
+        padding-top: 50px;
+    }
+
+    .footer {
+        margin-top: 20px;
+    }
+
+    .my-photo-contain {
+        float: left;
+        width: 50%;
+        margin-top: 50px;
+    }
+
+    .text-contain {
+        float: left;
+        width: 40%;
+        margin-right: 10%;
+        margin-top: 50px;
+    }
+
+    .resume-my-name {
+        display: inline-block;
+    }
+
+    .info-contain {
+        float: right;
+        margin-right: 10px;
+        margin-top: 25px;
+    }
+
+    .resume-number {
+        margin-bottom: 0;
+    }
+
+    .job-name {
+        display: inline-block;
+    }
+
+    .length-contain {
+        float: right;
+        margin-right: 10px;
+        margin-top: 8px;
+    }
+
+    .school {
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    section {
+        width: 98%;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Open Sans', Oswald;
+    background: #1F2833;
+    margin: 0;
+    color: #c5c6c7;
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+
+
+.header-name {
+    margin: 10px;
+    display: inline-block;
+    font-size: 2.5rem;
+    color: #66FCF1;
+}
+
+.navigation {
+    float: right;
+}
+
+.navigation ul {
+    list-style-type: none;
+}
+
+.navigation ul li {
+    display: inline-block;
+    margin: 25px;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: #c5c6c7;
+}
+
+.navigation ul li a:hover {
+    color: #66FCF1;
+}
+
+
+
+.my-photo {
+    max-width: 100%;
+}
+
+.photo-contain {
+    float: left;
+    width: 45%;
+    margin-right: 5%;
+}
+
+.text-contain {
+    float: left;
+    width: 45%;
+    margin-right: 5%;
+}
+
+.text-contain,
+.photo-contain {
+    margin-top: 50px;
+}
+
+.text-contain h3 {
+    margin-bottom: 5px;
+}
+
+.bio-name {
+    font-size: 3rem;
+}
+
+.text-contain h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+
+.text-contain p {
+    line-height: 2.5;
+}
+
+@media screen and (max-width: 768px) {
+    
+
+    .navigation {
+        float: none;
+    }
+
+    .text-contain {
+        float: none;
+        width: 100%;
+    }
+
+    .photo-contain {
+        float: none;
+        width: 100%;
+    }
+
+    .photo-contain,
+    .text-contain {
+        margin-top: 0;
+    }
+
+    nav ul {
+        padding-left: 15px;
+    }
+} */
